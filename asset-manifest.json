@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react_condional_ModalWindow/static/css/main.92ae559e.css",
-    "main.js": "/react_condional_ModalWindow/static/js/main.e29507c0.js",
+    "main.css": "/react_condional_ModalWindow/static/css/main.7a238b8d.css",
+    "main.js": "/react_condional_ModalWindow/static/js/main.27f56c9f.js",
     "static/media/gif.gif": "/react_condional_ModalWindow/static/media/gif.d6969ccea0e1394b1147.gif",
     "static/media/heroImage.jpg": "/react_condional_ModalWindow/static/media/heroImage.81e1e65315e1dd1a00a6.jpg",
     "static/media/graph.jpg": "/react_condional_ModalWindow/static/media/graph.363eb49d617d0806ef69.jpg",
     "index.html": "/react_condional_ModalWindow/index.html",
-    "main.92ae559e.css.map": "/react_condional_ModalWindow/static/css/main.92ae559e.css.map",
-    "main.e29507c0.js.map": "/react_condional_ModalWindow/static/js/main.e29507c0.js.map"
+    "main.7a238b8d.css.map": "/react_condional_ModalWindow/static/css/main.7a238b8d.css.map",
+    "main.27f56c9f.js.map": "/react_condional_ModalWindow/static/js/main.27f56c9f.js.map"
   },
   "entrypoints": [
-    "static/css/main.92ae559e.css",
-    "static/js/main.e29507c0.js"
+    "static/css/main.7a238b8d.css",
+    "static/js/main.27f56c9f.js"
   ]
 }
