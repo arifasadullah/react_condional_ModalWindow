@@ -1,29 +1,29 @@
-import React, { useState } from "react";
+import React from "react";
 import ReactDOM from "react-dom";
 import Card from "./Card";
 import Button from "./Button";
 import classes from "./ModalWindow.module.css";
 import gif from "../../assets/gif.gif";
 import graph from "../../assets/graph.jpg";
+import { useSelector, useDispatch } from "react-redux";
 
 const Backdrop = (props) => {
   return <div className={classes.backdrop} onClick={props.onConfirm} />;
 };
 
 const ModalOverlay = (props) => {
-  const [show, setShow] = useState(false);
-  const [showGraph, setShowGraph] = useState(false);
+  const show = useSelector((state) => state.show);
+  const showGraph = useSelector((state) => state.showGraph);
+  const dispatch = useDispatch();
   const gifHandler = () => {
-    setShow(true);
-    setShowGraph(false);
+    dispatch({ type: "SHOW_GIF" });
     setTimeout(() => {
-      setShow(false);
+      dispatch({ type: "CLOSE_GIF" });
     }, 7000);
   };
 
   const graphHandler = () => {
-    setShow(true);
-    setShowGraph(true);
+    dispatch({ type: "SHOW_GRAPH" });
   };
   return (
     <Card className={classes.modal}>
